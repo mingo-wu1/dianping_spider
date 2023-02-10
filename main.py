@@ -36,10 +36,10 @@ parser.add_argument('--detail', type=int, required=False, default=0,
                     help='spider as custom(just detail)')
 parser.add_argument('--review', type=int, required=False, default=0,
                     help='spider as custom(just review)')
-parser.add_argument('--shop_id', type=str, required=False, default='',
-                    help='custom shop id')
 parser.add_argument('--need_more', type=bool, required=False, default=False,
                     help='need detail')
+parser.add_argument('--shop_id', type=str, required=False, default='',
+                    help='custom shop id')
 args = parser.parse_args()
 if __name__ == '__main__':
     if args.normal == 1:
