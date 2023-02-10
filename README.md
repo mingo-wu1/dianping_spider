@@ -191,3 +191,9 @@
   - [评论页字体加密加密](http://www.sniper97.cn/index.php/note/carwler/3707/)
 
 如果你想加快进度，点个star吧呜呜呜
+
+## 成功测试案例
+  ```
+  python3 main.py --normal 0 --detail 1 --review 0 --need_more False --shop_id H5ixCeYIPD3EpnPo
+  ```
+  配置参考myconfig_gotsuccess.ini
